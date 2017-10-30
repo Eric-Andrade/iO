@@ -1,0 +1,28 @@
+{
+    "services":[
+        {
+            "sName": "Ice-cream shop",
+            "slug": "ice-cream-shop",
+            "sImage": "ice-cream-shop.jpg",
+            "sInfo": "We sale the best cultural ice-cream"
+        },
+        {
+            "sName": "Child parties",
+            "slug": "child-parties",
+            "sImage": "child-parties.jpg",
+            "sInfo": "Invite us your party, we carry the ice-cream"
+        },
+        {
+            "sName": "Adult parties",
+            "slug": "adult-parties",
+            "sImage": "adult-parties.jpg",
+            "sInfo": "Take a cold dessert with alcohol"
+        },
+        {
+            "sName": "Distribuitor",
+            "slug": "distribuitor",
+            "sImage": "distribuitor.jpg",
+            "sInfo": "You can be part of Unicorn"
+        }
+    ]
+}

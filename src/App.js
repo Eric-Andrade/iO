@@ -1,34 +1,37 @@
 import React, { Component } from 'react'
 import 'normalize.css'
-import styled, { ThemeProvider, css } from 'styled-components'
-import styles from './App.css'
+import { ThemeProvider } from 'styled-components'
 import { colors } from './utils/constants'
-
-const Button = styled.button`
-  border-radius: 3px;
-  padding: 0.25em 1em;
-  margin: 0 1em;
-  background: transparent;
-  color: palevioletred;
-  border: 2px solid palevioletred;
-
-  ${props => props.primary && css`
-    background: palevioletred;
-    color: white;
-  `}
-`
+import Header from './components/Header/Header'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+// import Navigator from './components/navigations'
+import services from './utils/services.json'
+import About from './components/About/About'
+import Analytics from './components/Analytics/Analytics'
+import Home from './components/Home/Home'
+import ServiceDetails from './components/Services/ServiceDetails/ServiceDetails'
+import E404 from './components/404/404'
 
 class App extends Component {
-    // state = {  }
   render () {
     return (
-      <ThemeProvider theme={colors}>
+      <Router>
         <div>
-          <h1 className={styles.heading}>Hello world!</h1>
-          <Button>Click me</Button>
-          <Button primary>Click me too</Button>
+          <ThemeProvider theme={colors}>
+            <Header />
+          </ThemeProvider>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route path='/about' component={About} />
+            <Route path='/analytics' component={Analytics} />
+            <Route path='/services/:slug' component={props => {
+              const s = services.services.filter(s => props.match.params.slug === s.slug)
+              return <ServiceDetails s={s[0]} />
+            }} />
+            <Route component={E404} />
+          </Switch>
         </div>
-      </ThemeProvider>
+      </Router>
     )
   }
 }

@@ -7,7 +7,11 @@ const { resolve } = require('path'),
 module.exports = {
     entry: `${srcDir}/index.js`,
     output: {
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath: '/'
+    },
+    devServer: {
+        historyApiFallback: true
     },
     module:{
         rules:[{
@@ -23,7 +27,7 @@ module.exports = {
             test: /\.css$/,
             loader: ExtractTextPlugin.extract({
                 fallback: 'style-loader',
-                use: [{loader: 'css-loader?modules,localIdentName="[name]-[local]-[hash:base64:6]"'}]
+                use: [{loader: 'css-loader?modules,localIdentName="[name]-[hash:base64:6]-[local]"'}]
             })
         }]
     },
