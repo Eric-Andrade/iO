@@ -16,10 +16,10 @@ import styles from './Button1.css'
 //   `}
 // `
 
-export default function SimpleButton ({ children, onPress, disabled }) {
-  return (
-    <button className={styles.button1} onClick={onPress} disabled={disabled} >
-      {children}
-    </button>
+const SimpleButton = ({ children, onPress, disabled }) => (
+  <button className={styles.button1} onClick={onPress} disabled={disabled} >
+    {children}
+  </button>
   )
-}
+
+export default SimpleButton

@@ -1,23 +1,25 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
+import services from '../utils/services.json'
 import About from './About/About'
 import Analytics from './Analytics/Analytics'
-// import Header from './Header/Header'
 import Home from './Home/Home'
-import Services from './Services/Services'
+import ServiceDetails from './Services/ServiceDetails/ServiceDetails'
+import E404 from './404/404'
 
 class Navigator extends Component {
-    // state = {  }
   render () {
     return (
-      <Router>
-        <div>
-          <Route exact path='/' component={Home} />
-          <Route path='/about' component={About} />
-          <Route path='/analytics' component={Analytics} />
-          <Route path='/services' component={Services} />
-        </div>
-      </Router>
+      <Switch>
+        <Route exact path='/' component={() => <Home s={services.services} />} />
+        <Route path='/about' component={About} />
+        <Route path='/analytics' component={Analytics} />
+        <Route path='/services/:slug' component={props => {
+          const s = services.services.filter(s => props.match.params.slug === s.slug)
+          return <ServiceDetails s={s[0]} />
+        }} />
+        <Route component={E404} />
+      </Switch>
     )
   }
 }
