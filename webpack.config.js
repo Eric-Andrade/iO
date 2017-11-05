@@ -25,10 +25,20 @@ module.exports = {
             exclude: /node_modules/
         },{
             test: /\.css$/,
-            loader: ExtractTextPlugin.extract({
-                fallback: 'style-loader',
-                use: [{loader: 'css-loader?modules,localIdentName="[name]-[hash:base64:6]-[local]"'}]
-            })
+            use: [{
+                loader: 'style-loader'
+            },{
+                loader: 'css-loader',
+                options:{
+                    modules: true,
+                    localIdentName: '[name]-[hash:base64:6]-[local]',
+                    camelCase: true
+                }
+            }]
+            // loader: ExtractTextPlugin.extract({
+            //     fallback: 'style-loader',
+            //     use: [{loader: 'css-loader?modules,localIdentName="[name]-[hash:base64:6]-[local]"'}]
+            // })
         }]
     },
     plugins: [
@@ -39,6 +49,3 @@ module.exports = {
         new DashboardPlugin(),
     ]
 }
-
-// "extract-text-webpack-plugin": "2.0.0-beta.5",
-// "normalize.css": "^5.0.0",

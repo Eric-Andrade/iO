@@ -1,7 +1,4 @@
 import React, { Component } from 'react'
-// import styled, { ThemeProvider, css } from 'styled-components'
-// import { invertTheme } from '../../utils/constants'
-// import styles from './Home.css'
 import Services from '../Services/Services'
 
 class Home extends Component {
@@ -17,11 +14,5 @@ class Home extends Component {
     )
   }
 }
-
-// const Home = ({s}) => (
-//   <div>
-//     {s.map(s => <Services {...s} key={s.slug} titleLink />) }
-//   </div>
-// )
 
 export default Home
