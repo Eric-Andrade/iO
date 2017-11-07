@@ -1,6 +1,6 @@
 const { resolve } = require('path'),
     HtmlwebpackPlugin = require('html-webpack-plugin'),
-    srcDir = resolve(__dirname, 'src'),
+    srcDir = resolve(__dirname, '../src'),
     DashboardPlugin = require('webpack-dashboard/plugin'),
     ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -40,6 +40,12 @@ module.exports = {
             //     use: [{loader: 'css-loader?modules,localIdentName="[name]-[hash:base64:6]-[local]"'}]
             // })
         }]
+    },
+    resolve: {
+        alias: {
+            react: 'preact-compat',
+            'react-dom': 'preact-compat',
+        }
     },
     plugins: [
         new HtmlwebpackPlugin({

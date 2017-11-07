@@ -6,9 +6,9 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dashboard -- webpack-dev-server",
+    "start": "webpack-dashboard -- webpack-dev-server --config=webpack/webpack.dev.js",
     "test": "jest",
-    "predeploy": "webpack --config=webpack.prod.js -p",
+    "predeploy": "webpack --config=webpack/webpack.prod.js -p",
     "deploy": "surge --project dist --domain https://ice-cream-unicorn.surge.sh"
   },
   "jest": {
@@ -58,6 +58,9 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^21.2.1",
     "normalize.css": "^7.0.0",
+    "offline-plugin": "^4.8.4",
+    "preact": "^8.2.6",
+    "preact-compat": "^3.17.0",
     "react-test-renderer": "^16.0.0",
     "standard": "^10.0.3",
     "standard-loader": "^6.0.1",
