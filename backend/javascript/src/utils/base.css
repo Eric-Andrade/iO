@@ -1,0 +1,41 @@
+:root{
+    --site-width: 98rem;
+}
+
+html{
+    font-family: sans-serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    background-color: #1e1e1e
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+a{
+    color: #f98484;
+    text-decoration: none
+}
+
+a:hover,
+a:focus,
+a:active,
+a:visited
+{
+    color: #ffaaaa;
+    /* -webkit-transition: 0.5s ease; 
+    transition: 0.5s ease; */
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.titles{
+    color: #ffaaaa;
+}

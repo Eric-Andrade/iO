@@ -1,5 +1,9 @@
+backend/javascript/node_modules/**/*
+frontend/mobile/iO/node_modules/**/*
+frontend/web/iO/node_modules/**/*
 node_modules/**/*
 .npm-debug.*
 .DS_Store
 *.log
-coverage
+backend/javascript/coverage
+backend/javascript/dist

@@ -1,0 +1,34 @@
+{
+    "services":[
+        {
+            "sName": "Living room",
+            "slug": "living-room",
+            "sImage": "living-room.jpg",
+            "sInfo": "Living room Control - Officia quod pariatur esse porro odit ipsum sit voluptas cum. Nobis incidunt qui sapiente repellat optio magnam ducimus. Aperiam cum facilis dolor sit enim optio dolor. Soluta culpa optio suscipit. Laborum et eligendi dolores officia corrupti vel fugit ut. Et labore pariatur non eum asperiores a aut soluta et. Consequatur omnis molestiae est modi quas id. Aut non molestias. Et atque amet ratione deserunt saepe pariatur quia temporibus necessitatibus. Facilis nihil voluptatem vitae aperiam id. Nostrum voluptatem voluptatibus iste recusandae facere soluta aliquid. Laborum totam saepe maxime dolores ut est tempore. Asperiores in vel maiores quisquam excepturi nostrum sit. Perferendis accusamus non harum officia neque eveniet sit. Ratione velit ipsam eum."
+        },
+        {
+            "sName": "Kitchen",
+            "slug": "kitchen",
+            "sImage": "kitchen.jpg",
+            "sInfo": "Kitchen Control - Non amet sunt. Quisquam assumenda deserunt dolores vero. In error eligendi nisi. Sed aliquid eius. Molestias nihil velit est ut est vitae sit nam. Non accusantium accusantium laudantium quo et autem ab. Tempore qui id voluptas enim id aut illum doloribus quisquam. Omnis delectus sunt omnis magnam quis omnis ipsam animi. Commodi veniam inventore quam. Exercitationem aut vero dolorem alias cumque quis. Id optio aperiam sit id. Officiis et voluptatum minima facilis nostrum rerum adipisci quisquam. Ipsam atque quia earum ut in. Et voluptatem voluptas sit."
+        },
+        {
+            "sName": "Bathroom",
+            "slug": "bathroom",
+            "sImage": "bathroom.jpg",
+            "sInfo": "Bathroom Control - Eligendi cumque dignissimos aut quas sit velit. Doloremque fuga eum molestiae beatae accusantium. Quis beatae ea ut similique ut sed quibusdam cum. Expedita maiores nihil delectus sed quidem facilis ducimus minima fugiat. Et incidunt non dolores molestias non ducimus quis perferendis. Velit fuga voluptas explicabo et dolores odit delectus et. Quia cum consequatur autem quia voluptas nam qui ipsum aut. Officia et repellat. Quidem distinctio tempore eum aut velit sit qui. Repellendus quae et. Eum autem cum quasi."
+        },
+        {
+            "sName": "Room 1",
+            "slug": "room1",
+            "sImage": "room1.jpg",
+            "sInfo": "Room 1 Control - Eveniet porro asperiores culpa iure corrupti unde. Consequatur sunt ut possimus. Quisquam aliquid exercitationem dolor iusto. Cupiditate assumenda eum rerum reprehenderit quia totam doloremque. Alias quas quibusdam. Et ut assumenda animi aut vero dicta fuga doloremque. Velit exercitationem veniam libero repudiandae ea distinctio dolores quia quasi. Corrupti reiciendis delectus esse vitae natus sit aut quas tempore. Et consequatur quia vero cumque consequatur. Nam non ut tempore pariatur et consequatur quo doloremque voluptates. Et tenetur porro. Sapiente dolorem perspiciatis dignissimos voluptatem numquam ut reiciendis corporis cum. Similique voluptates placeat aspernatur."
+        },
+        {
+            "sName": "Room 2",
+            "slug": "room2",
+            "sImage": "room2.jpg",
+            "sInfo": "Room 2 Control - Est sapiente sequi libero neque non possimus debitis debitis possimus. Eius placeat suscipit. Enim voluptatum et quasi molestias. Non et vel aliquid et delectus aliquid laboriosam. Inventore corrupti doloremque. Iusto rerum necessitatibus. Nisi dolore vero saepe soluta nostrum placeat rem omnis vel. Debitis quisquam ratione quaerat. Itaque quidem vel id illum quos animi magnam quia aut. Dolor ex deserunt est. Enim eaque beatae iste ab omnis qui. Excepturi minima ut non accusamus. Pariatur omnis et repellat placeat sequi quam cupiditate. Ea ex et officiis numquam iure. Delectus voluptate quasi facere repellat at vel adipisci possimus eligendi. Assumenda ut tenetur laboriosam eligendi dolorum vel itaque. Sunt ipsa deserunt alias nihil molestiae."
+        }
+    ]
+}

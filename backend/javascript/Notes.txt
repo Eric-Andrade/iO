@@ -1,0 +1,51 @@
+Links de apoyo {
+    SEO:
+        https://github.com/nfl/react-helmet
+        https://medium.com/salamcinema/creating-a-seo-friendly-sites-with-reactjs-57c4412f2862
+        http://www.maestrosdelweb.com/seo-con-open-graph-de-facebook/
+        https://builtvisible.com/react-js-seo/
+    
+    PWA: https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-i-introduction-50679aef2b12
+
+	},
+
+	Notas {
+	Error:
+	Solución:
+	Links:
+
+	Error:
+	Solución:
+	Links:
+
+	}
+}
+
+// TODO: dist file < peso al hacer build [Corregido]
+// TODO: hacer que predeploy funcione 50:00 [Corregido]
+// TODO: Status 200 al cargar en Network 52:25 [Corregido]
+
+// TODO TASKS:
+/* 
+    -PWA with Reactjs(Webpack + Babel, Code splitting, service worker offline)
+    -Testing with Jest + Enzyme
+-Improve PWA:
+    Change CSS-SASS
+    Optimize Images-WebP
+    Service workers
+-Server Side Render
+-Web design
+-Dynamic SEO 
+-API GraphQL with token auth
+-Security with encrypt
+-Social Networks (Facebook, Twitter, Instagram, Messenger, WhatsApp, Telegram, YouTube, g+)
+    Authentication
+    Ads
+    Bots
+-Multi-language
+-Google Analytics
+-E-mail Signup confirmation and Newsletter
+
+-Pay Processors (Stripe, PayPal, Others electronics cards)
+
+*/
