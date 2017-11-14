@@ -19,6 +19,9 @@ Links de apoyo {
 	Links:
 
 	}
+
+python -m SimpleHTTPServer 8000
+
 }
 
 // TODO: dist file < peso al hacer build [Corregido]
